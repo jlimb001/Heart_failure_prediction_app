@@ -1,0 +1,45 @@
+# Python-specific files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment files
+*.env
+.env.*
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit-specific files
+.streamlit/secrets.toml  # Secrets file for sensitive credentials
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+
+# Build artifacts and dependencies
+dist/
+build/
+*.egg-info/
+
+# Data files (optional, if you have large datasets)
+*.csv
+*.xlsx
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other unnecessary files
+node_modules/
